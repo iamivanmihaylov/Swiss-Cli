@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Swiss_Cli.Commands
 {
-    public class TextCommands : ICommand
+    public class TextCommands : ICliCommand
     {
         [Command("upper")]
         public void Uppercase([Argument] string text)

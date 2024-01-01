@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Swiss_Cli.Commands;
 
-public class ImageCommands : ICommand
+public class ImageCommands : ICliCommand
 {
     public void GrayScale(string source, string destination)
     {

@@ -16,7 +16,7 @@ namespace Swiss_Cli.Extensions
             var allCommands = startup
                 .Assembly
                 .GetTypes()
-                .Where(x => typeof(ICommand).IsAssignableFrom(x) && x.IsClass);
+                .Where(x => typeof(ICliCommand).IsAssignableFrom(x) && x.IsClass);
 
             foreach (var command in allCommands) 
             {

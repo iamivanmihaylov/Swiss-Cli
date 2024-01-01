@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Swiss_Cli.Extensions
 {
-    public interface ICommand
+    public interface ICliCommand
     {
     }
 }
