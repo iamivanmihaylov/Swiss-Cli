@@ -15,10 +15,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Services\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\Swiss-Cli.Extensions\Swiss-Cli.Extensions.csproj" />
   </ItemGroup>
 

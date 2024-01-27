@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Swiss_Cli.Commands
 {
-    internal class CryptographyCommands
+    public class CryptographyCommands
     {
     }
 }
